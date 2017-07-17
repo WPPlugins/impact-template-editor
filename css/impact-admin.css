@@ -1,0 +1,174 @@
+/*** Impact Admin Styles  ***/
+/*** Tags  ***/
+optgroup {
+   color:#333;
+   font-size:12px;
+   font-weight:bold;
+   font-style:normal;
+}
+impact_inserted_script {
+	display:none;
+}
+/*** Classes  ***/
+.postbox {
+	border:1px solid #555555;
+}
+.postbox h3 {
+	color: #fff;
+	border:1px solid #555555;
+	background:url("images/ui-bg_gloss-wave_35_0d7891_500x100.png") repeat-x scroll 50% 50% #0D7891;
+	text-shadow:none;
+	margin:-1px;
+}
+.impact-admin-1column {
+	width: 800px;
+	float: left;
+}
+.impact-admin-2column {
+	width: 400px;
+	float: left;
+}
+.impact-admin-3column {
+	width: 266px;
+	float: left;
+}
+.impact-admin-box {
+	-moz-border-radius: 4px;
+	border:1px solid #555555;
+	background: #f9f9f9;
+	margin: 0px;
+	padding: 0px 5px;
+	float: left;
+	margin: 0px 20px 20px 3px;	
+}
+.impact-admin-box h3 {
+	color: #fff;
+	text-shadow: 1px 2px 0px #000;
+	-moz-border-radius: 4px;
+	border:1px solid #555555;
+	padding: 3px 14px;
+	background:url("images/grip.png") repeat scroll 50% 50% #0D7891;
+	font-size: 13px;
+	margin: -1px -8px 0px;
+}
+.impact-admin-box h3 a {
+	color: #fff;
+}
+.impact-admin-box p {
+	font-size: 11px;
+}
+.impact-admin-button {
+	
+}
+.impact-admin-links {
+	font-size:11px;
+	font-style:normal;
+}
+.impact-admin-pagewrap {
+	width:800px;
+	overflow:auto;
+	padding-left:5px;
+	padding-bottom:20px;
+}
+.impact-admin-pagewrap h2 {
+	font-style:normal;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#464646;
+	margin:0;
+	padding:20px 0px;
+}
+.impact-admin-pagewrap h2 img {
+	margin-bottom:-14px;
+}
+.impact-admin-pagewrap a, .impact-admin-pagewrap a:hover a:visited {
+	text-decoration:none;
+}
+.impact-admin-title img {
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+.impact-boxwrap {
+	background: #f6f6f6;
+	border: 1px solid #999999;
+	margin: 5px 0px;
+	padding: 5px;
+	clear:both;
+}
+.impact-color-box {
+	width: 75px;
+}
+.impact-layouts-table {
+	width:auto;
+	display:block;
+	background: #f6f6f6;
+	border: 1px solid #999999;
+	margin: 5px 0px;
+	padding: 5px;
+	clear:both;
+	font-size:11px;
+}
+.impact-layouts-table td {
+	font-size:11px;
+}
+.impact-option-table td {
+	font-size: 11px;
+	padding: 4px 4px 4px 0px;
+}
+.impact-update {
+	width: 780px;
+	height: 40px;
+	text-align:center;
+	margin-bottom:10px;
+	background-color:#FFFFE0;
+	border:2px solid teal;
+	-moz-border-radius:8px 8px 8px 8px;
+}
+.impact-update p { 
+	font-weight:bold;
+	color:teal;
+	padding:0px;
+}
+.vp1col {
+	width: 770px;
+	float: left;
+}
+.vp2col {
+	width: 370px;
+}
+.vp3col {
+	width: 236px;
+	float: left;
+}
+.wrap h2 {
+	font-style:normal;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#464646;
+	margin-bottom:-10px;
+}
+.wrap h2 img {
+	margin-bottom:-10px;
+	margin-top:6px;
+}
+/*** IDs  ***/
+#show-options-button {
+	position:absolute;
+	padding:0.2em 0.6em 0.3em;
+	margin:10px 0 0 10px;
+	z-index:10;
+	cursor: pointer;
+}
+#show-css-builder-button {
+	position:absolute;
+	padding:0.2em 0.6em 0.3em;
+	margin:45px 0 0 10px;
+	z-index:10;
+	cursor: pointer;
+}
+/*** Fix For IE Dropdowns ***/
+select.ieexpand {
+	width:auto;
+}
